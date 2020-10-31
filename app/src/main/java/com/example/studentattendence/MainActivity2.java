@@ -101,11 +101,6 @@ public class MainActivity2 extends AppCompatActivity {
             }
         });
     }
-
-    @Override
-    public void onBackPressed() {
-        super.onBackPressed();
-    }
     /*semList=(ListView)findViewById(R.id.tray);
         final ArrayList<String> stupreList=new ArrayList<>();
         stupreList.add("Present");
