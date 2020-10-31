@@ -29,15 +29,9 @@ public class MainActivity2 extends AppCompatActivity {
     FirebaseFirestore db = FirebaseFirestore.getInstance();
     Map<String, Object> k;
     Map<Integer,String> slide_roll_name=new TreeMap<>();
-    TextView tp;
-    TextView name,id;
-    Button logout;
     ListView rolls;
-    final ArrayList<String> for_l1=new ArrayList<>();
-    final ArrayList<String> for_l2=new ArrayList<>();
     String dep,semi;
     ArrayList keyList,valueList;
-    Context context;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -74,7 +68,7 @@ public class MainActivity2 extends AppCompatActivity {
                         }
                     } else {
                         Log.d("WHO", "No such document");
-                        tp.setText("No document");
+                        //tp.setText("No document");
                         Toast.makeText(MainActivity2.this,"No document",Toast.LENGTH_SHORT).show();
                         onBackPressed();
                     }
@@ -107,7 +101,12 @@ public class MainActivity2 extends AppCompatActivity {
             }
         });
     }
-        /*semList=(ListView)findViewById(R.id.tray);
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+    }
+    /*semList=(ListView)findViewById(R.id.tray);
         final ArrayList<String> stupreList=new ArrayList<>();
         stupreList.add("Present");
         stupreList.add("Students");
