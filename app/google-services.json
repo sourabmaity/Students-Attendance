@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "800521479209",
+    "firebase_url": "https://studentpresent-dce27.firebaseio.com",
+    "project_id": "studentpresent-dce27",
+    "storage_bucket": "studentpresent-dce27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800521479209:android:993999195e073433c4a838",
+        "android_client_info": {
+          "package_name": "com.example.studentattendence"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800521479209-hpa0ftpgtjkm8uluaor6sjn2oagc3u1m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVjxa6r4y09vOikTcbFkNHDVlSXy8el4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800521479209-hpa0ftpgtjkm8uluaor6sjn2oagc3u1m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
